@@ -1,0 +1,355 @@
+2026-07-22 08:02:37.587 [info] [Window] Resolving connection token (codespaces)...
+2026-07-22 08:02:37.885 [error] [Window] Cannot resolve asset URLs before connection to cloud environment is established.: Error: Cannot resolve asset URLs before connection to cloud environment is established.
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-assert.js.c2509bb69287bd13e15d.js:1:259
+    at uii._delegate (https://assets.github.dev/static/514.0b46d9c96d935935c3f2.js:1:202348)
+    at uii.rewrite (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:434:65465)
+    at a.uriToBrowserUri (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:434:66272)
+    at ul (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:712:58920)
+    at aet.setLabel (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:893:1789)
+    at aet.render (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1087:35748)
+    at aet.setResource (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1087:32879)
+    at Object.setResource (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1087:28205)
+    at tI.redrawTabLabel (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1289:75422)
+    at tI.redrawTab (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1289:73825)
+    at https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1289:73644
+    at tI.doWithTab (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1289:63810)
+    at https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1289:63589
+    at Array.forEach (<anonymous>)
+    at tI.forEachTab (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1289:63518)
+    at tI.redraw (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1289:73612)
+    at tI.handleOpenedEditors (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1289:59829)
+    at tI.openEditors (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1289:59405)
+    at wAe.openEditors (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1397:12179)
+    at uy.restoreEditors (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1397:24043)
+    at new uy (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1397:17772)
+    at a._createInstance (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:2000:2000)
+    at a.createInstance (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:2000:1440)
+    at uy.createFromSerialized (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1397:18013)
+    at xAe.doCreateGroupView (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1397:69744)
+    at Object.fromJSON (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1397:78477)
+    at a._deserializeNode (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1272:41700)
+    at https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1272:41540
+    at Array.map (<anonymous>)
+    at a._deserializeNode (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1272:41521)
+    at a._deserialize (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1272:41428)
+    at a.deserialize (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1272:41362)
+    at a.deserialize (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1272:50144)
+    at xAe.doCreateGridControlWithState (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1397:78406)
+    at xAe.doCreateGridControlWithPreviousState (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1397:78125)
+    at xAe.doCreateGridControl (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1397:77778)
+    at xAe.createContentArea (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1397:74548)
+    at xAe.create (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1284:27413)
+    at oei.renderWorkbench (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:5165:101258)
+    at https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:5165:98306
+    at a.invokeFunction (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:2000:944)
+    at oei.startup (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:5165:97920)
+    at Pei.open (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:5169:2687)
+2026-07-22 08:02:38.051 [error] [Window] Cannot resolve asset URLs before connection to cloud environment is established.: Error: Cannot resolve asset URLs before connection to cloud environment is established.
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-assert.js.c2509bb69287bd13e15d.js:1:259
+    at uii._delegate (https://assets.github.dev/static/514.0b46d9c96d935935c3f2.js:1:202348)
+    at uii.rewrite (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:434:65465)
+    at a.uriToBrowserUri (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:434:66272)
+    at ul (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:712:58920)
+    at aet.setLabel (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:893:1789)
+    at aet.render (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1087:35748)
+    at aet.notifyFileDecorationsChanges (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1087:30099)
+    at https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1087:27383
+    at Array.forEach (<anonymous>)
+    at Iwe.value (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1087:27369)
+    at _._deliver (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:433:3268)
+    at _._deliverQueue (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:433:3357)
+    at _.fire (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:433:3692)
+    at tot.registerDecorationsProvider (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1863:1836)
+    at new bae (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:4093:5203)
+    at a._createInstance (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:2000:2000)
+    at a.createInstance (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:2000:1440)
+    at new RGe (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:4107:3712)
+    at a._createInstance (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:2000:2000)
+    at a.createInstance (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:2000:1440)
+    at LGe._createTabsView (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:4107:20568)
+    at LGe.renderBody (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:4107:19476)
+    at LGe.render (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1087:52176)
+    at LGe.render (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1088:3945)
+    at Pc.onDidAddViewDescriptors (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1110:19226)
+    at Pc.create (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1110:14966)
+    at n.create (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1272:105946)
+    at Sq.showComposite (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1397:142811)
+    at Sq.showComposite (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1404:10661)
+    at Sq.doOpenComposite (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1397:141550)
+    at Sq.openComposite (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1397:141123)
+    at Sq.doOpenPaneComposite (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1404:17004)
+    at Sq.openPaneComposite (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1404:16571)
+    at qit.openPaneComposite (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1834:6709)
+    at oei.openViewContainer (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:5165:53020)
+    at https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:5165:51886
+    at async Promise.all (index 3)
+    at async Object.a [as settled] (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:434:84592)
+2026-07-22 08:02:38.105 [error] [Window] Cannot resolve asset URLs before connection to cloud environment is established.: Error: Cannot resolve asset URLs before connection to cloud environment is established.
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-assert.js.c2509bb69287bd13e15d.js:1:259
+    at uii._delegate (https://assets.github.dev/static/514.0b46d9c96d935935c3f2.js:1:202348)
+    at uii.rewrite (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:434:65465)
+    at a.uriToBrowserUri (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:434:66272)
+    at ul (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:712:58920)
+    at aet.setLabel (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:893:1789)
+    at aet.render (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1087:35748)
+    at aet.notifyFileDecorationsChanges (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1087:30099)
+    at https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1087:27383
+    at Array.forEach (<anonymous>)
+    at Iwe.value (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1087:27369)
+    at _._deliver (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:433:3268)
+    at _._deliverQueue (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:433:3357)
+    at _.fire (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:433:3692)
+    at tot.registerDecorationsProvider (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1863:1836)
+    at new iUe (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:3335:39583)
+    at a._createInstance (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:2000:2000)
+    at https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:2000:4487
+    at E4._executor (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:434:82318)
+    at get value (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:434:82503)
+    at Object.get (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:2000:5013)
+    at uB._runFn (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:2936:37280)
+    at uB._run (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:435:6694)
+    at new uB (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:435:5832)
+    at he (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:435:8931)
+    at new IS (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:2936:37248)
+    at a._createInstance (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:2000:2000)
+    at a.createInstance (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:2000:1440)
+    at iD.createChatControl (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:3369:48632)
+    at iD.createControls (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:3369:39505)
+    at iD.renderBody (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:3369:38881)
+    at iD.render (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1087:52176)
+    at iD.render (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1088:3945)
+    at Pc.onDidAddViewDescriptors (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1110:19226)
+    at Pc.create (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1110:14966)
+    at n.create (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1272:105946)
+    at YN.showComposite (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1397:142811)
+    at YN.showComposite (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1404:10661)
+    at YN.doOpenComposite (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1397:141550)
+    at YN.openComposite (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1397:141123)
+    at YN.doOpenPaneComposite (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1404:17004)
+    at YN.openPaneComposite (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1404:16571)
+    at qit.openPaneComposite (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1834:6709)
+    at oei.openViewContainer (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:5165:53020)
+    at https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:5165:52135
+    at async Promise.all (index 4)
+    at async Object.a [as settled] (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:434:84592)
+2026-07-22 08:02:38.401 [info] [Window] [AgentHost:remote] Initializing (enabled=false, remoteAuthority=codespaces+effective-fortnight-wr46645wqqx6395xw)
+2026-07-22 08:02:38.402 [info] [Window] [AgentHost:remote] Disabled via "chat.agentHost.enabled" or web runtime. Not connecting.
+2026-07-22 08:02:41.118 [info] [Window] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-07-22 08:02:41.468 [error] [Window] Cannot resolve asset URLs before connection to cloud environment is established.: Error: Cannot resolve asset URLs before connection to cloud environment is established.
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-assert.js.c2509bb69287bd13e15d.js:1:259
+    at uii._delegate (https://assets.github.dev/static/514.0b46d9c96d935935c3f2.js:1:202348)
+    at uii.rewrite (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:434:65465)
+    at a.uriToBrowserUri (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:434:66272)
+    at ul (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:712:58920)
+    at aet.setLabel (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:893:1789)
+    at aet.render (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1087:35748)
+    at aet.notifyFileDecorationsChanges (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1087:30099)
+    at https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1087:27383
+    at Array.forEach (<anonymous>)
+    at Iwe.value (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1087:27369)
+    at _._deliver (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:433:3268)
+    at _._deliverQueue (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:433:3357)
+    at _.fire (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:433:3692)
+    at tot.registerDecorationsProvider (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1863:1836)
+    at Bpt._updateEnablement (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:4037:98982)
+    at new Bpt (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:4037:98506)
+    at a._createInstance (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:2000:2000)
+    at a.createInstance (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:2000:1440)
+    at a.safeCreateContribution (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:957:46909)
+    at c (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:957:46510)
+2026-07-22 08:02:41.646 [info] [Cloud Changes] Prompting to enable cloud changes, has application previously launched from Continue On flow: false
+2026-07-22 08:02:41.845 [info] [Window] Resolved connection token (codespaces) after 4258 ms
+2026-07-22 08:02:41.847 [info] [Window] Creating a socket (renderer-Management-4c5acaea-9921-4253-8166-17c9f83a4e82)...
+2026-07-22 08:02:41.856 [info] [Window] Creating a socket (renderer-ExtensionHost-d51527c7-c3f1-4215-8fd6-2af37b3e1302)...
+2026-07-22 08:02:42.221 [info] [Window] Creating a socket (renderer-Management-4c5acaea-9921-4253-8166-17c9f83a4e82) was successful after 374 ms.
+2026-07-22 08:02:42.289 [info] [Window] Creating a socket (renderer-ExtensionHost-d51527c7-c3f1-4215-8fd6-2af37b3e1302) was successful after 433 ms.
+2026-07-22 08:02:42.546 [info] [Window] [reconnection-grace-time] Client received grace time from server: 10800000ms (10800s)
+2026-07-22 08:02:43.507 [error] [Window] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
+2026-07-22 08:02:45.129 [error] [Window] Timed out waiting for authentication provider 'github' to register.: Error: Timed out waiting for authentication provider 'github' to register.
+    at Vet.tryActivateProvider (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1111:80077)
+    at async Vet.getSessions (https://assets.github.dev/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/workbench.web.main.internal.js:1111:76055)
+2026-07-22 08:02:45.227 [info] [Window] Updating additional builtin extensions cache
+2026-07-22 08:02:47.138 [info] [Window] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-07-22 08:02:51.052 [info] [Window] Extension host (Remote) is unresponsive.
+2026-07-22 08:02:54.584 [error] [Window] navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.: PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:852:7297)
+    at Object.33559 (/home/codespace/.vscode-remote/extensions/node_modules/axios/dist/node/axios.cjs:1732:20)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/webpack/bootstrap:19:32)
+    at Object.86259 (/home/codespace/.vscode-remote/extensions/node_modules/@microsoft/dev-tunnels-management/tunnelManagementHttpClient.js:12:17)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/webpack/bootstrap:19:32)
+    at Object.74061 (/home/codespace/.vscode-remote/extensions/node_modules/@microsoft/dev-tunnels-management/index.js:19:14)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/webpack/bootstrap:19:32)
+    at Object.48577 (/home/codespace/.vscode-remote/extensions/node_modules/@microsoft/dev-tunnels-connections/tunnelConnectionSession.js:7:34)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/webpack/bootstrap:19:32)
+    at Object.19773 (/home/codespace/.vscode-remote/extensions/node_modules/@microsoft/dev-tunnels-connections/tunnelRelayTunnelClient.js:14:35)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/webpack/bootstrap:19:32)
+    at Object.73551 (/home/codespace/.vscode-remote/extensions/node_modules/@microsoft/dev-tunnels-connections/index.js:31:14)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/webpack/bootstrap:19:32)
+    at Object.72780 (/home/codespace/.vscode-remote/extensions/codespaces-internal/dist/src/connection/tunnelProvider.js:20:35)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/webpack/bootstrap:19:32)
+    at Object.44731 (/home/codespace/.vscode-remote/extensions/codespaces-internal/dist/src/connection/index.js:18:14)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/webpack/bootstrap:19:32)
+    at Object.8622 (/home/codespace/.vscode-remote/extensions/codespaces-internal/dist/src/index.js:17:14)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/webpack/bootstrap:19:32)
+    at Object.14086 (/home/codespace/.vscode-remote/extensions/vscode-command-framework/dist/src/vscodeIdleStatus/VscodeActivityProvider.js:4:31)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/webpack/bootstrap:19:32)
+    at Object.82235 (/home/codespace/.vscode-remote/extensions/vscode-command-framework/dist/src/index.js:53:32)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/webpack/bootstrap:19:32)
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/out/bundle/extension-node.js:1561:322187
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/out/bundle/extension-node.js:1566:141998
+    at Object.<anonymous> (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/out/bundle/extension-node.js:1566:142037)
+    at Module._compile (node:internal/modules/cjs/loader:1871:14)
+    at Object..js (node:internal/modules/cjs/loader:2002:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1396:12)
+    at Module.i._load (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:852:6673)
+    at Module.n._load (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:683:28855)
+    at Module.n._load (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:675:26123)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1617:12)
+    at require (node:internal/modules/helpers:153:16)
+    at u_._doLoadModule (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:686:1487)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-07-22 08:02:54.584 [error] [Window] navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.: PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:852:7297)
+    at Object.39128 (/home/codespace/.vscode-remote/extensions/node_modules/axios/lib/platform/common/utils.js:3:21)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/webpack/bootstrap:19:32)
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/out/bundle/extension-node.js:1561:341794
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/out/bundle/extension-node.js:1566:141998
+    at Object.<anonymous> (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/out/bundle/extension-node.js:1566:142037)
+    at Module._compile (node:internal/modules/cjs/loader:1871:14)
+    at Object..js (node:internal/modules/cjs/loader:2002:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1396:12)
+    at Module.i._load (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:852:6673)
+    at Module.n._load (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:683:28855)
+    at Module.n._load (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:675:26123)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1617:12)
+    at require (node:internal/modules/helpers:153:16)
+    at u_._doLoadModule (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:686:1487)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-07-22 08:02:54.584 [error] [Window] navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.: PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:852:7297)
+    at getUserAgent (/home/codespace/.vscode-remote/extensions/node_modules/universal-user-agent/dist-web/index.js:2:5)
+    at Object.39128 (/home/codespace/.vscode-remote/extensions/node_modules/@octokit/endpoint/dist-src/defaults.js:3:53)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/webpack/bootstrap:19:32)
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/out/bundle/extension-node.js:1561:341794
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/out/bundle/extension-node.js:1566:141998
+    at Object.<anonymous> (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/out/bundle/extension-node.js:1566:142037)
+    at Module._compile (node:internal/modules/cjs/loader:1871:14)
+    at Object..js (node:internal/modules/cjs/loader:2002:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1396:12)
+    at Module.i._load (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:852:6673)
+    at Module.n._load (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:683:28855)
+    at Module.n._load (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:675:26123)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1617:12)
+    at require (node:internal/modules/helpers:153:16)
+    at u_._doLoadModule (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:686:1487)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-07-22 08:02:54.585 [error] [Window] navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.: PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:852:7297)
+    at getUserAgent (/home/codespace/.vscode-remote/extensions/node_modules/universal-user-agent/dist-web/index.js:2:5)
+    at Object.39128 (/home/codespace/.vscode-remote/extensions/node_modules/@octokit/request/dist-src/index.js:7:52)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/webpack/bootstrap:19:32)
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/out/bundle/extension-node.js:1561:341794
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/out/bundle/extension-node.js:1566:141998
+    at Object.<anonymous> (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/out/bundle/extension-node.js:1566:142037)
+    at Module._compile (node:internal/modules/cjs/loader:1871:14)
+    at Object..js (node:internal/modules/cjs/loader:2002:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1396:12)
+    at Module.i._load (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:852:6673)
+    at Module.n._load (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:683:28855)
+    at Module.n._load (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:675:26123)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1617:12)
+    at require (node:internal/modules/helpers:153:16)
+    at u_._doLoadModule (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:686:1487)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-07-22 08:02:54.585 [error] [Window] navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.: PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:852:7297)
+    at getUserAgent (/home/codespace/.vscode-remote/extensions/node_modules/universal-user-agent/dist-web/index.js:2:5)
+    at Object.39128 (/home/codespace/.vscode-remote/extensions/node_modules/@octokit/graphql/dist-web/index.js:112:52)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/webpack/bootstrap:19:32)
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/out/bundle/extension-node.js:1561:341794
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/out/bundle/extension-node.js:1566:141998
+    at Object.<anonymous> (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/out/bundle/extension-node.js:1566:142037)
+    at Module._compile (node:internal/modules/cjs/loader:1871:14)
+    at Object..js (node:internal/modules/cjs/loader:2002:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1396:12)
+    at Module.i._load (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:852:6673)
+    at Module.n._load (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:683:28855)
+    at Module.n._load (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:675:26123)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1617:12)
+    at require (node:internal/modules/helpers:153:16)
+    at u_._doLoadModule (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:686:1487)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-07-22 08:02:54.585 [error] [Window] navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.: PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:852:7297)
+    at getUserAgent (/home/codespace/.vscode-remote/extensions/node_modules/universal-user-agent/dist-web/index.js:2:5)
+    at Object.39128 (/home/codespace/.vscode-remote/extensions/node_modules/@octokit/core/dist-web/index.js:16:52)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/webpack/bootstrap:19:32)
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/out/bundle/extension-node.js:1561:341794
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/out/bundle/extension-node.js:1566:141998
+    at Object.<anonymous> (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.15/out/bundle/extension-node.js:1566:142037)
+    at Module._compile (node:internal/modules/cjs/loader:1871:14)
+    at Object..js (node:internal/modules/cjs/loader:2002:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1396:12)
+    at Module.i._load (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:852:6673)
+    at Module.n._load (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:683:28855)
+    at Module.n._load (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:675:26123)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1617:12)
+    at require (node:internal/modules/helpers:153:16)
+    at u_._doLoadModule (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:686:1487)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-07-22 08:02:54.586 [error] [Window] navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.: PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:852:7297)
+    at /vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/copilot/dist/extension.js:281:47508
+    at /vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/copilot/dist/extension.js:1:327
+    at /vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/copilot/dist/extension.js:281:51162
+    at /vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/copilot/dist/extension.js:1:327
+    at /vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/copilot/dist/extension.js:281:55194
+    at /vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/copilot/dist/extension.js:1:327
+    at /vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/copilot/dist/extension.js:281:56761
+    at /vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/copilot/dist/extension.js:1:327
+    at /vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/copilot/dist/extension.js:281:58951
+    at /vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/copilot/dist/extension.js:1:327
+    at /vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/copilot/dist/extension.js:290:2608
+    at /vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/copilot/dist/extension.js:1:327
+    at /vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/copilot/dist/extension.js:291:2671
+    at /vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/copilot/dist/extension.js:1:327
+    at /vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/copilot/dist/extension.js:291:9347
+    at /vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/copilot/dist/extension.js:1:327
+    at /vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/copilot/dist/extension.js:293:21736
+    at /vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/copilot/dist/extension.js:1:327
+    at /vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/copilot/dist/extension.js:293:25808
+    at /vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/copilot/dist/extension.js:1:327
+    at /vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/copilot/dist/extension.js:293:27311
+    at /vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/copilot/dist/extension.js:1:327
+    at Object.<anonymous> (/vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/copilot/dist/extension.js:2403:1178)
+    at Module._compile (node:internal/modules/cjs/loader:1871:14)
+    at Object..js (node:internal/modules/cjs/loader:2002:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1396:12)
+    at Module.i._load (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:852:6673)
+    at Module.n._load (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:683:28855)
+    at Module.n._load (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:675:26123)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1617:12)
+    at require (node:internal/modules/helpers:153:16)
+    at u_._doLoadModule (file:///vscode/bin/linux-x64/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/out/vs/workbench/api/node/extensionHostProcess.js:686:1487)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-07-22 08:02:54.586 [error] [Window] [Extension Host] (node:15697) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-07-22 08:02:55.118 [info] [Window] Extension host (Remote) is responsive.
+2026-07-22 08:02:55.959 [info] [Window] Settings Sync: Account status changed from uninitialized to available
+2026-07-22 08:03:00.934 [error] [Window] Tool "renderMermaidDiagram" was not contributed.
+2026-07-22 08:03:01.404 [error] [Window] [Extension Host] (node:15697) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-07-22 08:03:10.739 [warning] [Window] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
