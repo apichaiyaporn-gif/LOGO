@@ -1,0 +1,23 @@
+{
+  "name": "ระบบบันทึกสุขภาพนักเรียน",
+  "short_name": "สุขภาพนักเรียน",
+  "description": "ไอคอนทางลัดเข้าสู่ระบบบันทึกสุขภาพนักเรียน",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#eaf9ff",
+  "theme_color": "#17c9c3",
+  "icons": [
+    {
+      "src": "https://i.ibb.co/svVYd9fJ/Chibi-Nurse-Holding-Phone.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/public/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

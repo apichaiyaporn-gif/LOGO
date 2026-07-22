@@ -1,0 +1,1 @@
+{"scripts":{"test":"node --check scripts/validate-static-app.js && node scripts/validate-static-app.js"},"devDependencies":{}}
