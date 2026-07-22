@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Chibi Nurse Holding Phone app icon</title>
+  <desc id="desc">The provided Chibi Nurse Holding Phone logo used as the app icon.</desc>
+  <defs>
+    <clipPath id="roundedIcon">
+      <rect x="0" y="0" width="1024" height="1024" rx="192" ry="192" />
+    </clipPath>
+    <filter id="softShadow" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#08334d" flood-opacity="0.18" />
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="1024" height="1024" rx="192" ry="192" fill="#eaf9ff" />
+  <g clip-path="url(#roundedIcon)" filter="url(#softShadow)">
+    <image href="https://i.ibb.co/svVYd9fJ/Chibi-Nurse-Holding-Phone.png" x="0" y="0" width="1024" height="1024" preserveAspectRatio="xMidYMid slice" />
+  </g>
+</svg>
