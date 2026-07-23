@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Chibi Nurse Holding Phone app icon</title>
+  <desc id="desc">A self-contained chibi nurse medical app icon with a phone, heart, and pulse line.</desc>
+  <defs>
+    <linearGradient id="bg" x1="156" y1="92" x2="862" y2="934" gradientUnits="userSpaceOnUse"><stop stop-color="#19d6c5"/><stop offset="1" stop-color="#2e9df5"/></linearGradient>
+    <linearGradient id="skin" x1="430" y1="348" x2="710" y2="820" gradientUnits="userSpaceOnUse"><stop stop-color="#ffd9c2"/><stop offset="1" stop-color="#ff9d7c"/></linearGradient>
+    <filter id="shadow" x="-18%" y="-18%" width="136%" height="136%"><feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#0b456d" flood-opacity=".28"/></filter>
+  </defs>
+  <rect width="1024" height="1024" rx="196" fill="#eef8ff"/>
+  <rect x="36" y="36" width="952" height="952" rx="176" fill="url(#bg)"/>
+  <path d="M74 528h105l20-76 31 139 25-89 18 56h138" fill="none" stroke="#fff" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>
+  <path d="M182 230h58v-58a18 18 0 0 1 18-18h52a18 18 0 0 1 18 18v58h58a18 18 0 0 1 18 18v52a18 18 0 0 1-18 18h-58v58a18 18 0 0 1-18 18h-52a18 18 0 0 1-18-18v-58h-58a18 18 0 0 1-18-18v-52a18 18 0 0 1 18-18Z" fill="#fff"/>
+  <g filter="url(#shadow)">
+    <path d="M374 191c112-84 304-86 438-4 38 23 74 60 82 98l-82 62c-118-88-274-108-440-17l-31-96c8-17 19-31 33-43Z" fill="#fff"/>
+    <path d="M361 210c136-98 354-86 500 38" fill="none" stroke="#f65c80" stroke-width="22" stroke-linecap="round"/>
+    <path d="M574 174h47l-10 51 51 10-10 47-51-10-10 51-47-10 10-51-51-10 10-47 51 10 10-51Z" fill="#f65c80"/>
+    <circle cx="697" cy="562" r="84" fill="url(#skin)"/>
+    <circle cx="409" cy="562" r="84" fill="url(#skin)"/>
+    <path d="M392 398c34-132 267-184 385-48 82 95 55 315-33 421-60 72-208 102-315-5-97-97-83-235-37-368Z" fill="url(#skin)"/>
+    <path d="M350 432c26-145 160-253 325-223 117 21 211 118 222 234-49-70-112-109-190-126 5 109-78 174-220 186-51 4-95-13-137-71Z" fill="#4b241d"/>
+    <path d="M522 815c86 56 183 39 248-28 30 47 50 104 54 166H330c10-62 50-110 99-145 29 8 62 11 93 7Z" fill="#fff"/>
+    <path d="M405 833c126 58 262 50 372-39" fill="none" stroke="#ff638b" stroke-width="12" stroke-linecap="round" opacity=".75"/>
+    <circle cx="501" cy="542" r="44" fill="#fff"/><circle cx="512" cy="551" r="28" fill="#4b241d"/><circle cx="497" cy="529" r="10" fill="#fff"/>
+    <path d="M642 534c36-39 82-39 117 0" fill="none" stroke="#4b241d" stroke-width="16" stroke-linecap="round"/>
+    <path d="M542 641c36 61 99 58 133 0Z" fill="#9f2c2c"/><path d="M590 675c25 17 52 16 73-1" fill="none" stroke="#ff8f8f" stroke-width="18" stroke-linecap="round"/>
+    <rect x="209" y="562" width="196" height="328" rx="43" transform="rotate(-10 307 726)" fill="#172839"/>
+    <rect x="236" y="595" width="145" height="266" rx="25" transform="rotate(-10 309 728)" fill="#fff"/>
+    <path d="M287 684c27-45 92-26 92 27 0 47-60 76-92 100-33-24-92-53-92-100 0-53 65-72 92-27Z" transform="rotate(-10 287 747)" fill="#28c7b8"/>
+    <path d="M248 752h41l12-34 18 60 12-26h32" transform="rotate(-10 306 748)" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M786 724c26-44 91-26 91 26 0 47-59 76-91 100-32-24-91-53-91-100 0-52 65-70 91-26Z" fill="#ff5a84" stroke="#fff" stroke-width="17"/>
+  </g>
+</svg>

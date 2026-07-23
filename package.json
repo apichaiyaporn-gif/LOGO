@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "test": "node --check scripts/validate-static-app.js && node scripts/validate-static-app.js"
+  },
+  "devDependencies": {}
+}
